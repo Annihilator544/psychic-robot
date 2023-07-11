@@ -19,7 +19,7 @@ body{
     width: 100%;
     background-color:#fe520b ;
     border-radius: 12px;
-
+    display : flex;
 }
 .webpage3{
     min-height: calc(100vh - 32px);
@@ -144,4 +144,33 @@ li{
     margin: 32px;
     margin-top: auto;
     margin-bottom: 30px;
+}
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+
+#container {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100vw;
+    height: 80pt;
+    flex: 1;
+    filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+
+    font-family: "lemonmilk", sans-serif;
+    font-size: 80pt;
+
+    text-align: center;
+
+    user-select: none;
+}
+#filters{
+    position: absolute;
 }
